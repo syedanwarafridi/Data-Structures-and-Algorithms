@@ -25,7 +25,7 @@ class Queue:
 
         def deQueue(self):
             if self.front is None:
-                return None
+                return NoneSize
             deququeNode = self.front
             self.front = self.front.next
             if self.front is None:
